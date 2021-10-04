@@ -48,12 +48,12 @@ async def answer_iq(_, iq: InlineQuery):
             or (query.startswith('@') and len(split) == 1):
         title = f"{emoji.FIRE} Write a whisper message"
         content = ("**Satır içi mod aracılığıyla fısıltı mesajları gönderin**\n\n"
-                   "Kullanım: `@OzelMesajBot [@username] yazı`")
-        description = "Kullanım: @OzelMesajBot [@username] yazı"
+                   "Kullanım: `@YiohBot [@username] yazı`")
+        description = "Kullanım: @YiohBot [@username] yazı"
         thumb_url = WHISPER_ICON_URL
         button = InlineKeyboardButton(
             "Daha fazla bilgi edin..",
-            url="https://t.me/OzelmesajBot"
+            url="https://t.me/YiohBot"
         )
         switch_pm_text = f"{emoji.INFORMATION} Fısıltıları nasıl göndereceğinizi öğrenin"
         switch_pm_parameter = "learn"
