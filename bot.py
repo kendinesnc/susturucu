@@ -1,6 +1,8 @@
 # import logging
 import json
 
+from pyrogram import Client
+
 from data import whispers
 
 plugins = dict(
