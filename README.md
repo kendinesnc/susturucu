@@ -9,6 +9,9 @@ Telegram Bot for sending whisper messages
 - A Telegram Bot created with [BotFather](https://t.me/BotFather)
   with "inline mode" and "Inline Feedback" enabled
 
+### 🚀 Heroku'ya dağıtın
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sunac01/susturucu)
+
 ### Setup
 
 Create a new `config.ini`, copy-pate the following and replace the values with
