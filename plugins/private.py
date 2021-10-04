@@ -29,7 +29,7 @@ LEARN_TEXT = (
     "- @username için bir fısıltı yazın\n"
     "`@ezWhisperBot @username burada biraz metin`\n\n"
     "- İlk açana fısılda (PM'de de kullanılabilir)\n"
-    "`@ezWhisperBot burada biraz metin`"
+    "`@YiohBot burada biraz metin`"
 )
 LEARN_REPLY_MARKUP = InlineKeyboardMarkup(
     [
